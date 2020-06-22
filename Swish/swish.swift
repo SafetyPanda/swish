@@ -1,11 +1,12 @@
-#!/usr/bin/env swift
-
-// swish: Swift Shell: Unix Shell Written in Swift
-// Copyright (c) James Gillman [jronaldgillman@gmail.com], gitlab: @safetypanda
-
+//
+//  main.swift
+//  Swish
+//
+//  Created by James Gillman on 6/21/20.
+//  Copyright © 2020 SafetyPanda. All rights reserved.
+//
 
 import Foundation
-
 
 let userName = NSUserName()
 let home = NSHomeDirectory()
@@ -66,6 +67,10 @@ func shellPrompt() {
 }
 
 
+func main() {
+    startup()
+    shellPrompt()
+}
 
-startup()
-shellPrompt()
+main()
+
