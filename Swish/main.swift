@@ -9,5 +9,5 @@
 import Foundation
 
 var shell = swish()
-shell.startup()
+shell.swishShell()
 
