@@ -8,12 +8,13 @@
 
 import Foundation
 
-let userName = NSUserName()
 let home = NSHomeDirectory()
-
+let userName = NSUserName()
 let fileManager = FileManager.default //NEEDED for file management
-
 let historyFile = "\(home)/.swish_history"
+
+class swish {
+    
 
 func greeting(user: String) -> String {
     let start = """
@@ -67,10 +68,11 @@ func shellPrompt() {
 }
 
 
-func main() {
+func swishShell() {
     startup()
     shellPrompt()
 }
 
-main()
+}
+
 

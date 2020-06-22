@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AB56DD1024A07B1700A0EEC9 /* swish.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB56DD0F24A07B1700A0EEC9 /* swish.swift */; };
 		AB56DD1824A07B2900A0EEC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB56DD1724A07B2900A0EEC9 /* Foundation.framework */; };
+		ABB17E8124A08033008B1EC9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB17E8024A08033008B1EC9 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		AB56DD0C24A07B1700A0EEC9 /* Swish */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swish; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB56DD0F24A07B1700A0EEC9 /* swish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swish.swift; sourceTree = "<group>"; };
 		AB56DD1724A07B2900A0EEC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABB17E8024A08033008B1EC9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				AB56DD0F24A07B1700A0EEC9 /* swish.swift */,
+				ABB17E8024A08033008B1EC9 /* main.swift */,
 			);
 			path = Swish;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB17E8124A08033008B1EC9 /* main.swift in Sources */,
 				AB56DD1024A07B1700A0EEC9 /* swish.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
